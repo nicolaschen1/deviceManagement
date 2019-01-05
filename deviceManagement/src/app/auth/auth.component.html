@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+        <h2>Authentification</h2>
+        <button class="btn btn-success" *ngIf="!authStatus" (click)="onSignIn()">Sign In</button>
+        <button class="btn btn-danger" *ngIf="authStatus" (click)="onSignOut()">Log off</button>
+    </div>
+  </div>
+</div>

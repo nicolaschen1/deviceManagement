@@ -1,0 +1,15 @@
+<h2>My devices</h2>
+<p>Updated: {{ lastUpdate | async | date: 'y MMMM EEEE d' | uppercase }}</p>
+<ul class="list-group">
+    <app-appareil  *ngFor="let appareil of appareils; let i = index"
+                   [appareilName]="appareil.name"
+                   [appareilStatus]="appareil.status"
+                   [index]="i" 
+                   [id]="appareil.id"></app-appareil>
+  </ul>
+<button class="btn btn-success"
+        (click)="onAllumer()">Switch all on</button>
+<button class="btn btn-danger"
+        (click)="onEteindre()">Switch all off</button>
+<button class="btn btn-primary"
+        (click)="onSave()">Save devices</button>
