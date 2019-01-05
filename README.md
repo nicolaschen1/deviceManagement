@@ -4,7 +4,9 @@
 deviceManagement is an app to manage some devices such as connected objects (mobiles phones, washing machines, fridges, etc.). Therefore, it can ba a good app to control your devices at home.
 
 ## AngularJS
-AngularJS is a JavaScript-based open-source front-end web application framework.
+![image6](https://github.com/nicolaschen1/deviceManagement/blob/master/images/angular-card.png)  
+  
+ AngularJS is a JavaScript-based open-source front-end web application framework.
 
 ## Supported platforms
 - Windows
