@@ -9,10 +9,13 @@ AngularJS is a JavaScript-based open-source front-end web application framework.
 ## Supported platforms
 - Windows
 
+## Command
+To run the server:  
+ng serve --open
+
 ## How to use
 Click on Sign In, then click on the button for each device to switch on or switch off.
 You can also add new device and set the status. Likewise, a new list of users can be added.
-
 
 ## Screenshots
 ![image5](https://github.com/nicolaschen1/deviceManagement/blob/master/images/js5.PNG)
