@@ -1,7 +1,7 @@
 # deviceManagement
 
 ## About
-deviceManagement is an app to manage some devices such as connected objects (mobiles phones, washing machines, fridges, etc.). Therefore, it can ba a good app to control your devices at home.
+deviceManagement is an app to manage some devices such as connected objects (mobiles phones, washing machines, fridges, etc.). Therefore, it can ba a good app to control your devices at home. This app has been developed in AngularJS an TypeScript.
 
 ## AngularJS
 ![image6](https://github.com/nicolaschen1/deviceManagement/blob/master/images/angular-card.png)  
